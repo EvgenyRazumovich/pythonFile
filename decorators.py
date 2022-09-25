@@ -19,3 +19,11 @@ def person_second(name):
 
 
 person_second('Sofia')
+
+
+@ask_name
+def breakfast(food, drink):
+    print(f'my name Jame I like {food} and {drink}')
+
+
+breakfast('chips', 'Kola')
